@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "225368444763",
+    "firebase_url": "https://brtapp-15572.firebaseio.com",
+    "project_id": "brtapp-15572",
+    "storage_bucket": "brtapp-15572.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225368444763:android:d6aa8fcd911c90bc",
+        "android_client_info": {
+          "package_name": "com.example.brt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225368444763-hqkf3dplkmpcb571s6e4an2crb9m6ncl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.brt",
+            "certificate_hash": "76523e5f8d42611c60405991d14d4f1ae610ed2b"
+          }
+        },
+        {
+          "client_id": "225368444763-07sklntq48qhl4t81qb6l920iri24bf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrt5QnNxludhWTbRAFK8rLmIqPlVwdYZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225368444763-07sklntq48qhl4t81qb6l920iri24bf7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

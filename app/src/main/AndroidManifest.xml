@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.brt">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".About_us" />
+        <activity android:name=".Wallet" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".Main_Screen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.brt.Main_Screen" />
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUp" />
+        <activity android:name=".Main_Screen" />
+        <activity
+            android:name=".DrawerClass"
+            android:label="DrawerClass"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
